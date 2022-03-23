@@ -3,7 +3,7 @@
 
 err = 1, warn = 1, info = 1
 IG Publisher Version: 1.1.93 Out of date - current version is ?pub-ver-1?
-Generated Tue Mar 22 22:37:26 CDT 2022. FHIR version 4.0.1 for WaterClosetGuide#0.1.0 (canonical = https://gitlab.mitre.org/awatson/water-closet-ig)
+Generated Tue Mar 22 23:07:36 CDT 2022. FHIR version 4.0.1 for WaterClosetGuide#0.1.0 (canonical = https://gitlab.mitre.org/awatson/water-closet-ig)
  Build Errors : 0 / 0 / 0
  /Users/awatson/Code/gitlab/r5-miscellaneous/fsh-generated/resources/ImplementationGuide-WaterClosetGuide : 0 / 0 / 1
  /Users/awatson/Code/gitlab/r5-miscellaneous/fsh-generated/resources/codesystem-DeqmOperationOutcomeCodeSystem : 0 / 0 / 2
