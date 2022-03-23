@@ -1,0 +1,22 @@
+﻿WaterClosetGuide : Validation Results
+=========================================
+
+err = 1, warn = 1, info = 1
+IG Publisher Version: 1.1.93 Out of date - current version is ?pub-ver-1?
+Generated Thu Mar 17 12:46:12 CDT 2022. FHIR version 4.0.1 for WaterClosetGuide#0.1.0 (canonical = https://gitlab.mitre.org/awatson/water-closet-ig)
+ Build Errors : 0 / 0 / 0
+ /Users/awatson/Code/gitlab/hello-implementation-guide/fsh-generated/resources/ImplementationGuide-WaterClosetGuide : 0 / 0 / 1
+ /Users/awatson/Code/gitlab/hello-implementation-guide/fsh-generated/resources/codesystem-DeqmOperationOutcomeCodeSystem : 0 / 0 / 2
+ /Users/awatson/Code/gitlab/hello-implementation-guide/fsh-generated/resources/patient-PatientExample : 0 / 0 / 1
+ /Users/awatson/Code/gitlab/hello-implementation-guide/fsh-generated/resources/structuredefinition-MyPatient : 0 / 0 / 1
+ /Users/awatson/Code/gitlab/hello-implementation-guide/fsh-generated/resources/valueset-DeqmOperationOutcomeValueSet : 1 / 1 / 1
+</table>
+== n/a ==
+== fsh-generated/resources/ImplementationGuide-WaterClosetGuide.json ==
+== fsh-generated/resources/CodeSystem-DeqmOperationOutcomeCodeSystem.json ==
+INFORMATION: CodeSystem/DeqmOperationOutcomeCodeSystem: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/Patient-PatientExample.json ==
+== fsh-generated/resources/StructureDefinition-MyPatient.json ==
+== fsh-generated/resources/ValueSet-DeqmOperationOutcomeValueSet.json ==
+WARNING: ValueSet/DeqmOperationOutcomeValueSet: ValueSet.compose[0].include[1].valueSet[0]: The value set import https://awatson.pages.mitre.org/hello-implementation-guide/StructureDefinition-DeqmOperationOutcomeCodeSystem.html could not be found so cannot be checked
+ERROR: ValueSet.where(id = 'DeqmOperationOutcomeValueSet'): Error from server: Unable to find value set "https://awatson.pages.mitre.org/hello-implementation-guide/StructureDefinition-DeqmOperationOutcomeCodeSystem.html"
