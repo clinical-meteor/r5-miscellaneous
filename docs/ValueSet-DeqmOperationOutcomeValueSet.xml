@@ -5,18 +5,18 @@
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="http://terminology.hl7.org/3.1.0/CodeSystem-operation-outcome.html"><code>http://terminology.hl7.org/CodeSystem/operation-outcome</code></a></li><li>Import all the codes that are contained in https://awatson.pages.mitre.org/hello-implementation-guide/StructureDefinition-DeqmOperationOutcomeCodeSystem.html</li></ul></div>
   </text>
-  <url value="https://gitlab.mitre.org/awatson/water-closet-ig/ValueSet/DeqmOperationOutcomeValueSet"/>
+  <url value="https://github.com/clinical-meteor/r5-miscellaneous/ValueSet/DeqmOperationOutcomeValueSet"/>
   <version value="0.1.0"/>
   <name value="DeqmOperationOutcomeValueSet"/>
   <title value="DeqmOperationOutcomeValueSet"/>
   <status value="active"/>
-  <date value="2022-03-22T23:10:47-05:00"/>
+  <date value="2022-03-24T15:23:22-05:00"/>
   <publisher value="MITRE"/>
   <contact>
     <name value="MITRE"/>
     <telecom>
       <system value="url"/>
-      <value value="https://gitlab.mitre.org/awatson/water-closet-ig"/>
+      <value value="https://github.com/clinical-meteor/r5-miscellaneous"/>
     </telecom>
   </contact>
   <description value="ended valueset for OperationOutcomes used in DEQM settings."/>

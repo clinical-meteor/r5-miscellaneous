@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="WaterClosetGuide"/>
+  <id value="R5Miscellaneous"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>WaterClosetGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://gitlab.mitre.org/awatson/water-closet-ig/ImplementationGuide/WaterClosetGuide</pre></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>R5Miscellaneous</h2><p>The official URL for this implementation guide is: </p><pre>https://github.com/clinical-meteor/r5-miscellaneous/ImplementationGuide/R5Miscellaneous</pre></div>
   </text>
-  <url value="https://gitlab.mitre.org/awatson/water-closet-ig/ImplementationGuide/WaterClosetGuide"/>
+  <url value="https://github.com/clinical-meteor/r5-miscellaneous/ImplementationGuide/R5Miscellaneous"/>
   <version value="0.1.0"/>
-  <name value="WaterClosetGuide"/>
+  <name value="R5Miscellaneous"/>
   <status value="draft"/>
-  <date value="2022-03-22T23:10:47-05:00"/>
+  <date value="2022-03-24T15:23:22-05:00"/>
   <publisher value="MITRE"/>
   <contact>
     <name value="MITRE"/>
     <telecom>
       <system value="url"/>
-      <value value="https://gitlab.mitre.org/awatson/water-closet-ig"/>
+      <value value="https://github.com/clinical-meteor/r5-miscellaneous"/>
     </telecom>
   </contact>
-  <packageId value="WaterClosetGuide"/>
+  <packageId value="R5Miscellaneous"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <definition>
@@ -91,7 +91,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="https://gitlab.mitre.org/awatson/water-closet-ig/history.html"/>
+        <valueString value="https://github.com/clinical-meteor/r5-miscellaneous/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -232,7 +232,7 @@
       </reference>
       <name value="PatientExample"/>
       <description value="An example of a patient with a license to krill."/>
-      <exampleCanonical value="https://gitlab.mitre.org/awatson/water-closet-ig/StructureDefinition/MyPatient"/>
+      <exampleCanonical value="https://github.com/clinical-meteor/r5-miscellaneous/StructureDefinition/MyPatient"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

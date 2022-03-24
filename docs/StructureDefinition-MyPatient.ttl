@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://gitlab.mitre.org/awatson/water-closet-ig/StructureDefinition/MyPatient> a fhir:StructureDefinition;
+<https://github.com/clinical-meteor/r5-miscellaneous/StructureDefinition/MyPatient> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "MyPatient"];
   fhir:DomainResource.text [
@@ -21,11 +21,11 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "https://gitlab.mitre.org/awatson/water-closet-ig/StructureDefinition/MyPatient"];
+  fhir:StructureDefinition.url [ fhir:value "https://github.com/clinical-meteor/r5-miscellaneous/StructureDefinition/MyPatient"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "MyPatient"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-03-22T23:10:47-05:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-03-24T15:23:22-05:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "MITRE"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -33,7 +33,7 @@
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "https://gitlab.mitre.org/awatson/water-closet-ig" ]
+       fhir:ContactPoint.value [ fhir:value "https://github.com/clinical-meteor/r5-miscellaneous" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "An example profile of the Patient resource."];
@@ -2356,7 +2356,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://gitlab.mitre.org/awatson/water-closet-ig/StructureDefinition/MyPatient.ttl> a owl:Ontology;
+<https://github.com/clinical-meteor/r5-miscellaneous/StructureDefinition/MyPatient.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

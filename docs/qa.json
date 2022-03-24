@@ -1,9 +1,9 @@
 {
-  "url": "https://gitlab.mitre.org/awatson/water-closet-ig/ImplementationGuide/WaterClosetGuide",
-  "name": "WaterClosetGuide",
-  "package-id": "WaterClosetGuide",
+  "url": "https://github.com/clinical-meteor/r5-miscellaneous/ImplementationGuide/R5Miscellaneous",
+  "name": "R5Miscellaneous",
+  "package-id": "R5Miscellaneous",
   "ig-ver": "0.1.0",
-  "date": "Tue, 22 Mar, 2022 23:10:47 -0500",
+  "date": "Thu, 24 Mar, 2022 15:23:22 -0500",
   "errs": 1,
   "warnings": 1,
   "hints": 1,

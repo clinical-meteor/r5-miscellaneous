@@ -1,15 +1,15 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "WaterClosetGuide",
+  "id": "R5Miscellaneous",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WaterClosetGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://gitlab.mitre.org/awatson/water-closet-ig/ImplementationGuide/WaterClosetGuide</pre></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>R5Miscellaneous</h2><p>The official URL for this implementation guide is: </p><pre>https://github.com/clinical-meteor/r5-miscellaneous/ImplementationGuide/R5Miscellaneous</pre></div>"
   },
-  "url": "https://gitlab.mitre.org/awatson/water-closet-ig/ImplementationGuide/WaterClosetGuide",
+  "url": "https://github.com/clinical-meteor/r5-miscellaneous/ImplementationGuide/R5Miscellaneous",
   "version": "0.1.0",
-  "name": "WaterClosetGuide",
+  "name": "R5Miscellaneous",
   "status": "draft",
-  "date": "2022-03-22T23:10:47-05:00",
+  "date": "2022-03-24T15:23:22-05:00",
   "publisher": "MITRE",
   "contact": [
     {
@@ -17,12 +17,12 @@
       "telecom": [
         {
           "system": "url",
-          "value": "https://gitlab.mitre.org/awatson/water-closet-ig"
+          "value": "https://github.com/clinical-meteor/r5-miscellaneous"
         }
       ]
     }
   ],
-  "packageId": "WaterClosetGuide",
+  "packageId": "R5Miscellaneous",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
@@ -141,7 +141,7 @@
           },
           {
             "url": "value",
-            "valueString": "https://gitlab.mitre.org/awatson/water-closet-ig/history.html"
+            "valueString": "https://github.com/clinical-meteor/r5-miscellaneous/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -358,7 +358,7 @@
         },
         "name": "PatientExample",
         "description": "An example of a patient with a license to krill.",
-        "exampleCanonical": "https://gitlab.mitre.org/awatson/water-closet-ig/StructureDefinition/MyPatient"
+        "exampleCanonical": "https://github.com/clinical-meteor/r5-miscellaneous/StructureDefinition/MyPatient"
       }
     ],
     "page": {

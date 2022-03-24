@@ -3,7 +3,7 @@
   "id": "PatientExample",
   "meta": {
     "profile": [
-      "https://gitlab.mitre.org/awatson/water-closet-ig/StructureDefinition/MyPatient"
+      "https://github.com/clinical-meteor/r5-miscellaneous/StructureDefinition/MyPatient"
     ]
   },
   "text": {

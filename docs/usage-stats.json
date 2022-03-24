@@ -1,12 +1,12 @@
 {
-  "package": "WaterClosetGuide",
+  "package": "R5Miscellaneous",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "extensions": [],
   "profiles": {
     "Patient": [
       {
-        "url": "https://gitlab.mitre.org/awatson/water-closet-ig/StructureDefinition/MyPatient",
+        "url": "https://github.com/clinical-meteor/r5-miscellaneous/StructureDefinition/MyPatient",
         "title": "MyPatient"
       }
     ]

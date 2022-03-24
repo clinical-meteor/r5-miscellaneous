@@ -5,18 +5,18 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://gitlab.mitre.org/awatson/water-closet-ig/ImplementationGuide/WaterClosetGuide> a fhir:ImplementationGuide;
+<https://github.com/clinical-meteor/r5-miscellaneous/ImplementationGuide/R5Miscellaneous> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "WaterClosetGuide"];
+  fhir:Resource.id [ fhir:value "R5Miscellaneous"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>WaterClosetGuide</h2><p>The official URL for this implementation guide is: </p><pre>https://gitlab.mitre.org/awatson/water-closet-ig/ImplementationGuide/WaterClosetGuide</pre></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>R5Miscellaneous</h2><p>The official URL for this implementation guide is: </p><pre>https://github.com/clinical-meteor/r5-miscellaneous/ImplementationGuide/R5Miscellaneous</pre></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "https://gitlab.mitre.org/awatson/water-closet-ig/ImplementationGuide/WaterClosetGuide"];
+  fhir:ImplementationGuide.url [ fhir:value "https://github.com/clinical-meteor/r5-miscellaneous/ImplementationGuide/R5Miscellaneous"];
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
-  fhir:ImplementationGuide.name [ fhir:value "WaterClosetGuide"];
+  fhir:ImplementationGuide.name [ fhir:value "R5Miscellaneous"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-03-22T23:10:47-05:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-03-24T15:23:22-05:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "MITRE"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -24,10 +24,10 @@
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "https://gitlab.mitre.org/awatson/water-closet-ig" ]
+       fhir:ContactPoint.value [ fhir:value "https://github.com/clinical-meteor/r5-miscellaneous" ]
      ]
   ];
-  fhir:ImplementationGuide.packageId [ fhir:value "WaterClosetGuide"];
+  fhir:ImplementationGuide.packageId [ fhir:value "R5Miscellaneous"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
      fhir:value "4.0.1";
@@ -139,7 +139,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "https://gitlab.mitre.org/awatson/water-closet-ig/history.html" ]
+         fhir:Extension.valueString [ fhir:value "https://github.com/clinical-meteor/r5-miscellaneous/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -295,7 +295,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://gitlab.mitre.org/awatson/water-closet-ig/StructureDefinition/MyPatient>;
+         fhir:link <https://github.com/clinical-meteor/r5-miscellaneous/StructureDefinition/MyPatient>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/MyPatient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "MyPatient" ];
@@ -309,7 +309,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://gitlab.mitre.org/awatson/water-closet-ig/ValueSet/DeqmOperationOutcomeValueSet>;
+         fhir:link <https://github.com/clinical-meteor/r5-miscellaneous/ValueSet/DeqmOperationOutcomeValueSet>;
          fhir:Reference.reference [ fhir:value "ValueSet/DeqmOperationOutcomeValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "DeqmOperationOutcomeValueSet" ];
@@ -323,7 +323,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://gitlab.mitre.org/awatson/water-closet-ig/CodeSystem/DeqmOperationOutcomeCodeSystem>;
+         fhir:link <https://github.com/clinical-meteor/r5-miscellaneous/CodeSystem/DeqmOperationOutcomeCodeSystem>;
          fhir:Reference.reference [ fhir:value "CodeSystem/DeqmOperationOutcomeCodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "DeqmOperationOutcomeCodeSystem" ];
@@ -337,14 +337,14 @@
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://gitlab.mitre.org/awatson/water-closet-ig/Patient/PatientExample>;
+         fhir:link <https://github.com/clinical-meteor/r5-miscellaneous/Patient/PatientExample>;
          fhir:Reference.reference [ fhir:value "Patient/PatientExample" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PatientExample" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An example of a patient with a license to krill." ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "https://gitlab.mitre.org/awatson/water-closet-ig/StructureDefinition/MyPatient";
-         fhir:link <https://gitlab.mitre.org/awatson/water-closet-ig/StructureDefinition/MyPatient>
+         fhir:value "https://github.com/clinical-meteor/r5-miscellaneous/StructureDefinition/MyPatient";
+         fhir:link <https://github.com/clinical-meteor/r5-miscellaneous/StructureDefinition/MyPatient>
        ]
      ];
      fhir:ImplementationGuide.definition.page [
@@ -423,7 +423,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://gitlab.mitre.org/awatson/water-closet-ig/ImplementationGuide/WaterClosetGuide.ttl> a owl:Ontology;
+<https://github.com/clinical-meteor/r5-miscellaneous/ImplementationGuide/R5Miscellaneous.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

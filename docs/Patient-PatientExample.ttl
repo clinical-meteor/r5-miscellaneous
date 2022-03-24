@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://gitlab.mitre.org/awatson/water-closet-ig/Patient/PatientExample> a fhir:Patient;
+<https://github.com/clinical-meteor/r5-miscellaneous/Patient/PatientExample> a fhir:Patient;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "PatientExample"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://gitlab.mitre.org/awatson/water-closet-ig/StructureDefinition/MyPatient";
+       fhir:value "https://github.com/clinical-meteor/r5-miscellaneous/StructureDefinition/MyPatient";
        fhir:index 0;
-       fhir:link <https://gitlab.mitre.org/awatson/water-closet-ig/StructureDefinition/MyPatient>
+       fhir:link <https://github.com/clinical-meteor/r5-miscellaneous/StructureDefinition/MyPatient>
      ]
   ];
   fhir:DomainResource.text [
@@ -30,7 +30,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://gitlab.mitre.org/awatson/water-closet-ig/Patient/PatientExample.ttl> a owl:Ontology;
+<https://github.com/clinical-meteor/r5-miscellaneous/Patient/PatientExample.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -2,28 +2,28 @@
   {
     "id": "DeqmOperationOutcomeCodeSystem",
     "type": "CodeSystem",
-    "url": "https://gitlab.mitre.org/awatson/water-closet-ig/CodeSystem/DeqmOperationOutcomeCodeSystem",
+    "url": "https://github.com/clinical-meteor/r5-miscellaneous/CodeSystem/DeqmOperationOutcomeCodeSystem",
     "version": "0.1.0",
     "name": "DeqmOperationOutcomeCodeSystem"
   },
   {
-    "id": "WaterClosetGuide",
+    "id": "R5Miscellaneous",
     "type": "ImplementationGuide",
-    "url": "https://gitlab.mitre.org/awatson/water-closet-ig/ImplementationGuide/WaterClosetGuide",
+    "url": "https://github.com/clinical-meteor/r5-miscellaneous/ImplementationGuide/R5Miscellaneous",
     "version": "0.1.0",
-    "name": "WaterClosetGuide"
+    "name": "R5Miscellaneous"
   },
   {
     "id": "MyPatient",
     "type": "StructureDefinition",
-    "url": "https://gitlab.mitre.org/awatson/water-closet-ig/StructureDefinition/MyPatient",
+    "url": "https://github.com/clinical-meteor/r5-miscellaneous/StructureDefinition/MyPatient",
     "version": "0.1.0",
     "name": "MyPatient"
   },
   {
     "id": "DeqmOperationOutcomeValueSet",
     "type": "ValueSet",
-    "url": "https://gitlab.mitre.org/awatson/water-closet-ig/ValueSet/DeqmOperationOutcomeValueSet",
+    "url": "https://github.com/clinical-meteor/r5-miscellaneous/ValueSet/DeqmOperationOutcomeValueSet",
     "version": "0.1.0",
     "name": "DeqmOperationOutcomeValueSet"
   }
