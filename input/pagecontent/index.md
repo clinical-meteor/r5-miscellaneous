@@ -1,10 +1,18 @@
 # R5 Patient Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi placerat euismod ligula quis rhoncus. Nulla egestas semper tortor, vitae tempor lorem. Nunc bibendum ante sit amet urna aliquet rutrum. Nam quam nunc, posuere ac ornare nec, rhoncus ac erat. Ut vestibulum euismod velit at pharetra. 
-
+Welcome to the Patient Introduction to Fast Healthcare Interoperability Resources (FHIR).  If you've recently been told about something called 'fire' related to your Personal Health Records, you're in the right place.  The following document will give a brief overview of how you as a patient can access your own personal health records under various government laws.  
 
 ### What is the benefit of the record to the patient?  
 Taking ownership of one's healthrecords can be a lifechanging and empowering decision.  Rather than guessing about your health, one can participate in the process of measuring and understanding your health.  
+
+### How does FHIR help me as a patient?
+- Aggregate your health records from your health clinics to -  - Better understand your health
+- Make sure your data is correct
+- Share your records
+- Download your billing records from your payors
+- Surgical or procedure planning
+- Maintain compliance to a careplan or treatment plan.
+
 
 #### What is FHIR?  
 Fast Healthcare Interoperability Resources (FHIR) is a data specification for sharing healthcare data.  Unlike prior standards, FHIR is based on web standards.  Fundamentally, its "healthcare + internet".  
@@ -14,28 +22,34 @@ Many participating healthcare systems and technology vendors are already support
 
 
 #### How do I use it?  How do I access my FHIR records?   
-To access your records requires having a personal health record (PHR) running on your mobile device or desktop computer.  The two most popular choices (which together cover approximately 95% of the mobile device and smartphone markets) are:  
+To access your records requires having a personal health record (PHR) running on your mobile device or desktop computer.  
 
-- Apple Health Records
-- Android CommonPass
+- A FHIR application (either an app on a phone or online)
+- Portal credentials for your healthcare organizations
+ 
+### Where can I find FHIR applications?
+Some health organizations have lists of FHIR applications on their website.
 
-#### Why do I need them?  
-Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
+https://myhealthapplication.com/health-apps/gallery
 
-##### Validated everything is accurate  
-One of the most common reasons people want a copy of their health records is to contest them if they are in error.  
 
-##### Personal fitness / ownership of health etc.    
-Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
+
+#### Why do I need copies of my Health Records?  
+
+Patient surveys show that a major reason patients tend to be interested in having copies of their own healthrecords is to check for accuracy and errors.  When a medical record has an error, it can result in safety issues with dire consequences.  Amongst the most common errors are left/right errors and having contents in the record from another patient.  Getting copies of your records can help assure that your records are accurate.
+
+Patients often request copies of their own records when they want to take a more active ownership of their own health.  This often happens after a health incident where a person re-evaluates their habits and seek to implement new careplans and new routines. And can be as simple as tracking personal fitness goals or as complex as doing a complete quantified self workup and measure metabolic biomarkers on a monthly or quarterly basis.  
 
 #### Getting a copy of your records  
-Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
+Health records are available from many organizations, although they all tend to be password and account protected according to various privacy laws.  Which is precisely why they tend to be restricted and patient access is even an issue of concern.  
 
-##### Health Information Exchange  
-Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
+Typically, one will first want to check with one's local hospital or clinic or laboratory, to see if they have a patient portal.  If so, sign up and look there for downloadable data.  Typically, these documents will be provided in PDF format.  
+
+Second, consumer Health Information Exchanges such as provide users with browsable directories of participating providers they can download their data from.  
+
 
 ##### Requesting records  
-Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
+When requesting copies of your records in electronic access, you may need to 
 
 ##### Storing records (PHR)  
 Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
@@ -58,15 +72,21 @@ Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molesti
 
 - HIPAA (United States)
 - MACRA (United States) 
-- 21st Century Cures Act (United States) 
+- [21st Century Cures Act (United States)](https://www.healthit.gov/curesrule/)  
 - CARES Act (United States)
 - GDPR (Europe)
 - PIPL - Personal Information Privacy Law (China)
 - Privacy Act (Australia)
 
 
-### Data Models ????  
-Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
+ Cures Act - The rule includes a provision requiring that patients can electronically access all of their electronic health information (EHI), structured and/or unstructured, at no cost.
+
+Deadline is December 31, 2022 for patient access to USCDIv1 elements https://www.healthit.gov/isa/united-states-core-data-interoperability-uscdi
+
+
+### What Data is Included?
+
+
 
 ##### Argonaut
 Besides being a bad pun on JSON and the Argonauts, the Argonaut project is one of the oldest FHIR projects, and comprises a set of core data resources that EHR vendors have agreed to use to communicate clinical findings.  Argonaut resources include things like Allergy Intolerance, Condition, Immunization, Patient, Observation, and Procedure.  
@@ -81,7 +101,7 @@ Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molesti
 Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
 
 ##### US Common Data for Interoperability (USCDI)  
-Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
+USCDI is a set of basic data that the US Government expects applications and technology vendors to support in order to obtain certification as an interoperability compliant product or service.  
 
 
 
@@ -91,15 +111,37 @@ Patients that wish to build tools and utilities using their own health records w
 ##### Implementation Division
 Such patients may find the activities in the HL7 Implementation Division to be of interest.  
 
+##### Standard Health Record 
+[The Standard Health Record Collaborative](http://standardhealthrecord.org/)
+
+
 ##### See Developer Section  
-Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
+Patients with software development experience will want to refer to the [Developer introduction](http://hl7.org/fhir/overview-dev.html).
 
 ##### Example apps  
-Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
+[SMART on FHIR App Examples](https://github.com/smart-on-fhir/smart-examples)  
+[Creating Your First SMART on FHIR Application](https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/creating-your-first-smart-on-fhir-application/ba-p/2802999)  
+[Smart on FHIR Tutorial](https://github.com/cerner/smart-on-fhir-tutorial)  
+
+
+
 
 ##### Security Checklist  
-Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
+- [Clinical safety checklist](https://www.hl7.org/fhir/safety.html)   
 
 ##### Synthea  
-Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
+Another resource of interest may be the [Synthea](https://synthetichealth.github.io/synthea/) tool, which allows users to generate synthetic data.
 
+
+##### References    
+
+[FHIR Fact Sheets](https://www.healthit.gov/topic/standards-technology/standards/fhir-fact-sheets)  
+[What is FHIR?](https://www.healthit.gov/sites/default/files/2019-08/ONCFHIRFSWhatIsFHIR.pdf)  
+ 
+
+ 
+ 
+ 
+ 
+
+ 

@@ -1,30 +1,9 @@
 [
   {
-    "id": "DeqmOperationOutcomeCodeSystem",
-    "type": "CodeSystem",
-    "url": "https://github.com/clinical-meteor/r5-miscellaneous/CodeSystem/DeqmOperationOutcomeCodeSystem",
-    "version": "0.1.0",
-    "name": "DeqmOperationOutcomeCodeSystem"
-  },
-  {
     "id": "R5Miscellaneous",
     "type": "ImplementationGuide",
     "url": "https://github.com/clinical-meteor/r5-miscellaneous/ImplementationGuide/R5Miscellaneous",
     "version": "0.1.0",
     "name": "R5Miscellaneous"
-  },
-  {
-    "id": "MyPatient",
-    "type": "StructureDefinition",
-    "url": "https://github.com/clinical-meteor/r5-miscellaneous/StructureDefinition/MyPatient",
-    "version": "0.1.0",
-    "name": "MyPatient"
-  },
-  {
-    "id": "DeqmOperationOutcomeValueSet",
-    "type": "ValueSet",
-    "url": "https://github.com/clinical-meteor/r5-miscellaneous/ValueSet/DeqmOperationOutcomeValueSet",
-    "version": "0.1.0",
-    "name": "DeqmOperationOutcomeValueSet"
   }
 ]

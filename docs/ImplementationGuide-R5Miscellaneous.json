@@ -9,7 +9,7 @@
   "version": "0.1.0",
   "name": "R5Miscellaneous",
   "status": "draft",
-  "date": "2022-03-24T15:23:22-05:00",
+  "date": "2022-03-31T12:46:39-05:00",
   "publisher": "MITRE",
   "contact": [
     {
@@ -51,6 +51,19 @@
           {
             "url": "value",
             "valueString": "ci-build"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "autoload-resources"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -301,64 +314,19 @@
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      }
-    ],
-    "resource": [
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/MyPatient"
-        },
-        "name": "MyPatient",
-        "description": "An example profile of the Patient resource.",
-        "exampleBoolean": false
       },
       {
         "extension": [
           {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/DeqmOperationOutcomeValueSet"
-        },
-        "name": "DeqmOperationOutcomeValueSet",
-        "description": "ended valueset for OperationOutcomes used in DEQM settings.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
+            "url": "code",
+            "valueString": "excludelogbinaryformat"
+          },
           {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
+            "url": "value",
+            "valueString": "true"
           }
         ],
-        "reference": {
-          "reference": "CodeSystem/DeqmOperationOutcomeCodeSystem"
-        },
-        "name": "DeqmOperationOutcomeCodeSystem",
-        "description": "Codesystem for OperationOutcomes used in DEQM settings.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Patient"
-          }
-        ],
-        "reference": {
-          "reference": "Patient/PatientExample"
-        },
-        "name": "PatientExample",
-        "description": "An example of a patient with a license to krill.",
-        "exampleCanonical": "https://github.com/clinical-meteor/r5-miscellaneous/StructureDefinition/MyPatient"
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
       }
     ],
     "page": {
