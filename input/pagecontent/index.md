@@ -48,35 +48,30 @@ Typically, one will first want to check with one's local hospital or clinic or l
 Second, consumer Health Information Exchanges such as provide users with browsable directories of participating providers they can download their data from.  
 
 
-##### Requesting records  
-When requesting copies of your records in electronic access, you may need to 
 
 ##### Storing records (PHR)  
-Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
+Once received, a person needs to store the healthrecords somewhere.  There are many 
 
-#### App that use PHR records (CARIN Alliance)  
-Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
+- *Web App* Apps available on the web.  Browse the CARIN Alliance website for a listing.  
 
-##### Portal  
-Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
+- *Patient Portal* - Web interfaces to hospital electronic medical record systems.
 
-##### App Stores  
-Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
+- *App Stores* - Marketplaces provided by tech vendors, where a person can purchase and download apps.  
 
-#### Corrections  
+#### Making Corrections  
 Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
 
 #### Laws - US  
 
-Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
+Numerous laws cover patient privacy, patient data ownership, and patient right to access their own data.  Relevant laws and legal precendent include:  
 
-- HIPAA (United States)
-- MACRA (United States) 
+- [Health Insurance Portability and Accountability Act](https://www.hipaaguide.net/hipaa-updates/) (United States)
+- [Medicare Access and CHIP Reauthorization ](https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/Value-Based-Programs/MACRA-MIPS-and-APMs/MACRA-MIPS-and-APMs) (United States) 
 - [21st Century Cures Act (United States)](https://www.healthit.gov/curesrule/)  
-- CARES Act (United States)
-- GDPR (Europe)
-- PIPL - Personal Information Privacy Law (China)
-- Privacy Act (Australia)
+- [Coronavirus Aid, Relief, and Economic Security Act](https://www.congress.gov/bill/116th-congress/house-bill/748)] (United States)
+- [General Data Protection Regulation](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation) (Europe)
+- [Personal Information Privacy Law](https://www2.deloitte.com/cn/en/pages/risk/articles/personal-information-protection-law.html) (China)
+- [Privacy Act](https://www.oaic.gov.au/privacy/the-privacy-act) (Australia)
 
 
  Cures Act - The rule includes a provision requiring that patients can electronically access all of their electronic health information (EHI), structured and/or unstructured, at no cost.
@@ -87,14 +82,13 @@ Deadline is December 31, 2022 for patient access to USCDIv1 elements https://www
 ### What Data is Included?
 
 
-
 ##### Argonaut
 Besides being a bad pun on JSON and the Argonauts, the Argonaut project is one of the oldest FHIR projects, and comprises a set of core data resources that EHR vendors have agreed to use to communicate clinical findings.  Argonaut resources include things like Allergy Intolerance, Condition, Immunization, Patient, Observation, and Procedure.  
 
 ##### International Patient Summary  
 International Patient Summary is an European Union led project, focusing on patient summaries as they are exchanged between different countries in the EU.  Particular attention is given to different languages and terminologies, and necessary documentation for crossing borders (such as vaccines).
 
-##### Vaccine Card InImplementationGuide-WaterClosetGuide.jsonitiative ??  
+##### Vaccine Card  
 Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molestie id tortor nec feugiat. Integer blandit condimentum neque eget bibendum.
 
 ##### Continuity of Care Documents (CCD)
@@ -102,8 +96,6 @@ Donec faucibus bibendum metus, eget aliquam libero dictum sed. Curabitur molesti
 
 ##### US Common Data for Interoperability (USCDI)  
 USCDI is a set of basic data that the US Government expects applications and technology vendors to support in order to obtain certification as an interoperability compliant product or service.  
-
-
 
 #### Implementator Section  
 Patients that wish to build tools and utilities using their own health records will have additional interests and needs.  
