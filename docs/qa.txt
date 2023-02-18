@@ -1,12 +1,19 @@
 ﻿R5Miscellaneous : Validation Results
 =========================================
 
-err = 1, warn = 0, info = 0
-IG Publisher Version: 1.1.93 Out of date - current version is ?pub-ver-1?
-Generated Thu Apr 07 13:37:07 CDT 2022. FHIR version 4.0.1 for R5Miscellaneous#0.1.0 (canonical = https://github.com/clinical-meteor/r5-miscellaneous)
- Build Errors : 0 / 0 / 0
- /Users/awatson/Code/implementation-guides/r5-miscellaneous/fsh-generated/resources/ImplementationGuide-R5Miscellaneous : 1 / 0 / 1
+err = 0, warn = 4, info = 0
+IG Publisher Version: 1.2.37
+Generated Fri Feb 17 19:15:45 CST 2023. FHIR version 4.0.1 for R5Miscellaneous#0.2.0 (canonical = https://github.com/clinical-meteor/r5-miscellaneous)
+ Build Errors : 0 / 4 / 0
+ /Users/awatson/Code/implementation-guides/r5-miscellaneous/fsh-generated/resources/ImplementationGuide-R5Miscellaneous : 0 / 0 / 1
+ /Users/awatson/Code/implementation-guides/r5-miscellaneous/fsh-generated/resources/Patient-PatientExample : 0 / 0 / 1
+ /Users/awatson/Code/implementation-guides/r5-miscellaneous/fsh-generated/resources/StructureDefinition-MyPatient : 0 / 0 / 1
 </table>
 == n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/ImplementationGuide-R5Miscellaneous.json ==
-ERROR: ImplementationGuide/R5Miscellaneous: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide)
+== fsh-generated/resources/Patient-PatientExample.json ==
+== fsh-generated/resources/StructureDefinition-MyPatient.json ==
