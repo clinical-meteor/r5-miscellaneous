@@ -1,0 +1,16 @@
+[
+  {
+    "id" : "R5Miscellaneous",
+    "type" : "ImplementationGuide",
+    "url" : "https://github.com/clinical-meteor/r5-miscellaneous/ImplementationGuide/R5Miscellaneous",
+    "version" : "0.2.0",
+    "name" : "R5Miscellaneous"
+  },
+  {
+    "id" : "MyPatient",
+    "type" : "StructureDefinition",
+    "url" : "https://github.com/clinical-meteor/r5-miscellaneous/StructureDefinition/MyPatient",
+    "version" : "0.2.0",
+    "name" : "MyPatient"
+  }
+]

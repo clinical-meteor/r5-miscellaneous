@@ -1,0 +1,12 @@
+{
+  "url" : "https://github.com/clinical-meteor/r5-miscellaneous/ImplementationGuide/R5Miscellaneous",
+  "name" : "R5Miscellaneous",
+  "package-id" : "R5Miscellaneous",
+  "ig-ver" : "0.2.0",
+  "date" : "Fri, 17 Feb, 2023 19:10:52 -0600",
+  "errs" : 0,
+  "warnings" : 4,
+  "hints" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0-snapshot2 (3)"
+}
