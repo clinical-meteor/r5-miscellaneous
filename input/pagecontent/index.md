@@ -10,6 +10,7 @@ Many healthcare systems and technology vendors are already supporting the FHIR d
 Taking ownership of one's healthrecords can be a lifechanging and empowering decision.  Rather than guessing about your health, one can participate in the process of measuring and understanding your health.  You may find FHIR useful when:
 
 - Aggregating your health records from different health clinics 
+- Collecting and tracking health data using apps, sensors, wearables, and other devices.
 - Researching and understanding your own health 
 - Researching and understanding a diagnosis your healthcare provider made
 - Making sure the records your physician or nurse have about you is correct
@@ -21,7 +22,7 @@ Taking ownership of one's healthrecords can be a lifechanging and empowering dec
 - Downloading your billing records from your payors
 - Moving from one city to another
 
-### How do I use FHIR?  How do I access my FHIR records?   
+### How do I use FHIR?  
 
 You may, in fact, already be using FHIR without knowing it.  FHIR is frequently used when hospital systems transfer records between one setting to another.  This may include the patient portal that you use to access your records; a health information exchange that you've signed up for; or a personal health record application on your smartphone, such as Apple Health or Android Common Health..  
 
@@ -29,29 +30,27 @@ Oftentimes, there is interoperability going on, but it works somewhat behind the
 
  
 ### Where can I find FHIR applications?
-Some health organizations have lists of FHIR applications on their website.  Here are some examples:
+The following galleries have begun compiling lists of FHIR enabled applications into consumer oriented directories.  You may also want to download operating-system PHR platforms, such as Apple Health or CommonHealth, as well as ask your community health organization if their Patient Portal is FHIR enabled.
 
 [My Health Applications](https://myhealthapplication.com/health-apps/gallery)  
 [SMART App Gallery](https://apps.smarthealthit.org/apps/featured)  
 
 
-
-### Why do I need copies of my Health Records?  
+### Why do I need copies of my records?  
 
 Patient surveys show that a major reason patients tend to be interested in having copies of their own healthrecords is to check for accuracy and errors.  When a medical record has an error, it can result in safety issues with dire consequences.  Amongst the most common errors are left/right errors and having contents in the record from another patient.  Getting copies of your records can help assure that your records are accurate.
 
 Patients often request copies of their own records when they want to take a more active ownership of their own health.  This often happens after a health incident where a person re-evaluates their habits and seek to implement new careplans and new routines. And can be as simple as tracking personal fitness goals or as complex as doing a complete quantified self workup and measure metabolic biomarkers on a monthly or quarterly basis.  
 
-### Getting a copy of your records  
-Health records are available from many organizations, although they all tend to be password and account protected according to various privacy laws.  Which is precisely why they tend to be restricted and patient access is even an issue of concern.  
+### How do I get a copy of my records?
+Health records are available from many organizations, such as hospitals, clinics, insurance companies, laboratories, medical device vendors, and others.  In the vast majority of situations, your records will be password protected to your account, and subject to various privacy laws.  This privacy protection is precisely why they tend to have restricted access, and why patient access to them is even an issue of concern.  
 
-Typically, one will first want to check with one's local hospital or clinic or laboratory, to see if they have a patient portal.  If so, sign up and look there for downloadable data.  Typically, these documents will be provided in PDF format.  
+Typically, one will first want to check with one's local hospital or clinic or laboratory, to see if they have a patient portal.  If so, sign up and look there for downloadable data.  Typically, these documents will be provided in PDF format, but you will also want to look for 'Export' or 'Download' buttons.  
 
 Second, consumer Health Information Exchanges such as provide users with browsable directories of participating providers they can download their data from.  
 
 
-
-### Laws - United States
+### What legal rights do patients have?
 
 Numerous laws cover patient privacy, patient data ownership, and patient right to access their own data.  Relevant laws and legal precendent include:  
 
@@ -67,9 +66,9 @@ Numerous laws cover patient privacy, patient data ownership, and patient right t
 Note that, in the United States, the 21st Century Cures Act is of particular importance to patients; and the rule includes provisions requiring that patients can electronically access all of their electronic health information (EHI), structured and/or unstructured, at no cost, and with the application of their choice.  Patients have the recourse to [report information blocking](https://inquiry.healthit.gov/support/plugins/servlet/desk/portal/6) by healthcare systems and other vendors.
 
 
-### What Data is Included?
+### What data is included?
 
-FHIR provides out-of-the-box data schemas and implementation guidance for many common data types that are found in healthcare... allergies, immunizations, medications, patient demographics, clinical observations, vital signs, procedures, and much more!
+FHIR provides out-of-the-box data schemas and implementation guidance for many common data types that are found in healthcare... allergies, immunizations, medications, patient demographics, clinical observations, vital signs, procedures, and much more!  Examples include…..
 
 - US Common Data for Interoperability (USCDI)  
 USCDI is a set of basic data that the US Government expects applications and technology vendors to support in order to obtain certification as an interoperability compliant product or service.  
@@ -84,12 +83,14 @@ International Patient Summary is an European Union led project, focusing on pati
 - Vaccine Card  
 Public health data such as vaccine passports and vaccination status.
 
-- Continuity of Care Documents (CCD)
+- Continuity of Care Documents (CCD on FHIR)
 Continuity of Care documents are the clinical documents that hospitals and clinics provide to you when you leave an over night stay at a hospital.  They include progress notes, treatment summary, diagnosis, and similar documents.  They may also include ambulance and transportation instructions.
+
+- Payor data such as financial claims and explanation of benefit documents, and clinical data they may have.  
 
 
 ### Patient Implementators 
-Patients that wish to build tools and utilities using their own health records will have additional interests and needs. Such patients may find the activities in the HL7 Implementation Division to be of interest.  Patients with software development experience will want to refer to the [Developer introduction](http://hl7.org/fhir/overview-dev.html) and the [Implementation Support Module](https://hl7.org/FHIR/implsupport-module.html).
+Patients that wish to build tools and utilities using their own health records will have additional interests and needs. Such patients may find the activities in the HL7 Implementation Division to be of interest.  Patients with software development experience will want to refer to the [Developer introduction](http://hl7.org/fhir/overview-dev.html) and the [Implementation Support Module](https://hl7.org/FHIR/implsupport-module.html).  See the following links for more details….
 
 - [SMART on FHIR App Examples](https://github.com/smart-on-fhir/smart-examples)  
 - [Creating Your First SMART on FHIR Application](https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/creating-your-first-smart-on-fhir-application/ba-p/2802999)  
