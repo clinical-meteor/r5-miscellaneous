@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "0.2.0"]; # 
   fhir:ImplementationGuide.name [ fhir:value "R5Miscellaneous"]; # 
   fhir:ImplementationGuide.status [ fhir:value "draft"]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2023-02-17T19:15:27-06:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2023-02-23T16:14:18-06:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.publisher [ fhir:value "MITRE"]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
